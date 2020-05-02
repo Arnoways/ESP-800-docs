@@ -14,9 +14,9 @@ All code changes and submissions happen on [Github](http://github.com), that mea
  - https://help.github.com/articles/creating-a-pull-request
 
 
-### General requirements
+## General requirements
 
-## Commit Changes
+### Commit Changes
 
 When you commit your local changes in your repository (before to push to Github), we need you take care of the following:
 
@@ -56,10 +56,10 @@ When you commit your local changes in your repository (before to push to Github)
 - When running the __git commit__ command, make sure you are using the __-s__ flag, that will add a Signed-off comment in the patch description.
 
 
-## Code reviews
+### Code reviews
 
-When we review your code submission, the code should follow our [Developer Guide](DEVELOPER_GUIDE.md), documented if required and the patch Subject and Description well formed (within others).
+When we review your code submission, the code should follow our [Developer Guide](DEVELOPER_GUIDE.md), be documented and the patch Subject and Description well formed (within others).
 
 If your code needs some improvement, someone of the reviewers or core developers will write a comment in your Pull Request, so please take in count the suggestion there, otherwise your request could never be merged.
 
-Despite the effort that took for you to create the contribution, that is not an indication that the code have to be merged into upstream, everything will be reviewed and must be aligned as the code base.
+Despite the effort that took for you to create the contribution, that is not an indication that the code has to be merged into upstream, everything will be reviewed and must be aligned as the code base.

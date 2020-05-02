@@ -4,20 +4,21 @@ This document details how to handle a project lifecycle at MIC'S.
 
 ## Requirements
 Each project will include a Readme.md describing:
-- The language's version
-- How to install and set-up a development environment. This includes how to use any additional file you might have provided (Dockefiles, Vagrantfiles, etc...)  
+- The language's version.  
+- How to install and set-up a development environment. This includes how to use any additional file you might have provided (Dockeriles, Vagrantfiles, etc...).  
 - A file describing the requirements/dependencies of your code with specific versions and in which Operating system it works (if relevant).  
 - How to run the test suite, how to build/compile and run the project.  
+
 Issues templates will have to be prepared on each project to help users report bugs and issues.  
 Contributors should be registered in the project with the appropriated rights by the repository's owner which should be the person in charge of the project. Admin rights should be also delegated to another contributor of trust (if possible).   
 
 ### Documentation
 You should also pick how you want to write your documentation, the choice is yours as long as it is there and contains the following requirements:  
-- The project's goal, why it is being developed.
+- The project's goal, why is it being developed.
 - Architecture details, this could be under any form: schemas, paragraphs, videos...
 - An index on your different chapters.  
 - Any callable function or API route should be described with the required parameters and the returned value, including the format.  
-- If the documentation is more like a user's guide, it should present how to do specific tasks with detailled step-by-step paragraphs.  
+- If the documentation is more like a user's guide, it should present how to do specific tasks with detailed step-by-step paragraphs.  
 
 ## Production
 The ultimate goal of your project/code is to be set up in production and be used, so let's talk about that first. You should have a production branch in your repository, it must be the main branch (like master, but feel free to rename it however you want) and must be protected from any push directly to it. All changes to this branch must be done from Pull-Requests with one person reviewing the code and a different one merging it if possible.  
